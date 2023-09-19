@@ -71,7 +71,7 @@ class _SplashViewWidgetState extends State<SplashViewWidget>
       Get.to(
         () => const HomeViewScreen(),
         transition: Transition.fade,
-        duration: kTranstionDuration,
+        duration: kTransitionDuration,
       );
     });
   }
